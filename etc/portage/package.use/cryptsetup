@@ -1,0 +1,11 @@
+sys-fs/cryptsetup -gcrypt static
+>=virtual/libudev-215-r1 static-libs
+>=dev-libs/openssl-1.0.2h-r2 static-libs
+>=dev-libs/popt-1.16-r2 static-libs
+>=sys-apps/util-linux-2.26.2 static-libs
+>=sys-fs/eudev-3.1.5 static-libs
+>=dev-libs/libgpg-error-1.19 static-libs
+>=sys-libs/zlib-1.2.8-r1 static-libs
+>=sys-fs/lvm2-2.02.116-r4 static-libs
+>=dev-libs/libgcrypt-1.6.5 static-libs
+>=dev-libs/lzo-2.08 static-libs

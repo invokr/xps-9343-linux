@@ -1,0 +1,2 @@
+# required by net-wireless/broadcom-sta (argument)
+=net-wireless/broadcom-sta-6.30.223.271-r3 ~amd64

@@ -1,0 +1,2 @@
+# required by dracut (argument)
+=sys-kernel/dracut-044 ~amd64
