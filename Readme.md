@@ -21,3 +21,13 @@ Since 4.8, the configuration has all the necessary settings to support running d
 
 Before running this kernel, make sure to enable module-signing so you get that extra bit of security. Because the wireless driver is being build out-of-tree, disabling module loading
 is not an option right now.
+
+bin/make_kernel.sh
+------------------
+
+If you don't have an ecrypted harddrive this script is of no concern to you.
+
+For everyone else, please see my blog post for the details. The gist is that the XPS doesn't pass any parameters to UEFI, so if we want to build a signed kernel that is fully
+verified by UEFI (without having grub sit in between, which would make the signing useless), the initial ramdisk needs all the parameters required build-in.
+
+Check the script and modify the parameters so they point at your harddisks.
