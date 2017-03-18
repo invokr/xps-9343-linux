@@ -1,2 +1,5 @@
 # required by net-wireless/broadcom-sta (argument)
 =net-wireless/broadcom-sta-6.30.223.271-r3 ~amd64
+
+# Required by the 4.8 kernel
+=net-wireless/broadcom-sta-6.30.223.271-r4 ~amd64
