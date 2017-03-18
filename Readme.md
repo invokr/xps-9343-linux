@@ -8,6 +8,8 @@ This repository contains the minimum configuration files to run a hardened Gento
 
 I've tested the kernel with the 9343 model. The 9350 model has a newer CPU and chipset and might require slight changes.
 
+I've also written a [small post](http://invokr.org/secure-gentoo-on-xps-2015.html) on how to set up your XPS with an encrypted harddrive / signed kernel that uses the configurations from this repositoy.
+
 Kernel configuration
 --------------------
 
@@ -27,7 +29,7 @@ bin/make_kernel.sh
 
 If you don't have an ecrypted harddrive this script is of no concern to you.
 
-For everyone else, please see my blog post for the details. The gist is that the XPS doesn't pass any parameters to UEFI, so if we want to build a signed kernel that is fully
-verified by UEFI (without having grub sit in between, which would make the signing useless), the initial ramdisk needs all the parameters required build-in.
+The gist is that the XPS doesn't pass any parameters to UEFI, so if we want to build a signed kernel that is fully verified by UEFI (without having grub sit in between, 
+which would make the signing useless), the initial ramdisk needs all the parameters required build-in.
 
 Check the script and modify the parameters so they point at your harddisks.
